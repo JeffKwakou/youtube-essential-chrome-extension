@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube essential Extension",
+  "description": "Permet de nettoyer son interface Youtube en gardant uniquement les sections qui nous intéressent !",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup/index.html"
+  }
+}
