@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="./bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="./bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><span>Youtube</span> essential interface</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="options">
+                <div>
+                    <label class="switch-label" for="mainSection">Masquer les vidéos sur la page d'accueil</label>
+                </div>
+                <label class="switch">
+                    <input type="checkbox" id="mainSection">
+                    <span class="slider round"></span>
+                </label>
+            </section>
+
+            <section class="options">
+                <div>
+                    <label class="switch-label" for="sidenavItems">Masquer les menus inutils de la navigation latérale</label>
+                </div>
+                <label class="switch">
+                    <input type="checkbox" id="sidenavItems">
+                    <span class="slider round"></span>
+                </label>
+            </section>
+
+            <section class="options">
+                <div>
+                    <label class="switch-label" for="commentsSection">Masquer les commentaires des vidéos</label>
+                </div>
+                <label class="switch">
+                    <input type="checkbox" id="commentsSection">
+                    <span class="slider round"></span>
+                </label>
+            </section>
+
+            <section class="options">
+                <div>
+                    <label class="switch-label" for="suggestVideosSection">Masquer les suggestions de vidéos</label>
+                </div>
+                <label class="switch">
+                    <input type="checkbox" id="suggestVideosSection">
+                    <span class="slider round"></span>
+                </label>
+            </section>
+        </div>
+    </main>
+
+    <div id="quote">
+        <p>"La concentration est la clé de la réussite."</p>
+        <p>Bruce Lee</p>
+    </div>
+
+    <script src="./popup.js"></script>
+</body>
+</html>
